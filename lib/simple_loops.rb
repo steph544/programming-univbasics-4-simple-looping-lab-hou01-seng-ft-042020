@@ -13,3 +13,12 @@ def loop_message_n_times(string, num)
   counter+=1 
 end 
 end 
+
+def output_array(array)
+  counter=0 
+  while counter<array.length 
+  element_index=0 
+  puts array[element_index]
+  counter+=1 
+end
+end 
