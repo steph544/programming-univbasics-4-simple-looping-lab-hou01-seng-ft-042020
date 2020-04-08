@@ -23,5 +23,10 @@ end
 end 
 
 def return_string_array(array)
-array.to_s
+  array_new=[]
+  counter=0 
+  while counter<array.length do 
+    array_new << array[counter].to_s 
+    counter+=1 
+  end 
 end 
